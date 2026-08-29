@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Library Management System</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="logo">
+            📚 Library Management System
+        </div>
+
+        <!-- NAVIGATION -->
+        <nav id="navigation">
+
+            <a href="#" data-page="Dashboard">Dashboard</a>
+
+            <a href="#" data-page="Books">Books</a>
+
+            <a href="#" data-page="Members">Members</a>
+
+            <a href="#" data-page="Issue Book">Issue Book</a>
+
+            <a href="#" data-page="Return Book">Return Book</a>
+
+            <a href="#" data-page="Reports">Reports</a>
+
+            <a href="#" data-page="About">About</a>
+
+            <a href="login.html" class="logout">Logout</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <section class="welcome">
+
+            <h1 id="pageTitle">
+                Welcome to Dashboard
+            </h1>
+
+            <p id="pageContent">
+                You have successfully logged in.
+            </p>
+
+        </section>
+
+
+        <!-- DASHBOARD CARDS -->
+
+        <div class="cards">
+
+
+            <!-- BOOKS -->
+
+            <div class="card">
+
+                <div class="icon">
+                    📚
+                </div>
+
+                <h2>Books</h2>
+
+                <p>
+                    View and manage library books.
+                </p>
+
+                <a href="#" data-page="Books">
+                    View Books
+                </a>
+
+            </div>
+
+
+            <!-- MEMBERS -->
+
+            <div class="card">
+
+                <div class="icon">
+                    🧑‍🎓
+                </div>
+
+                <h2>Members</h2>
+
+                <p>
+                    View and manage library members.
+                </p>
+
+                <a href="#" data-page="Members">
+                    View Members
+                </a>
+
+            </div>
+
+
+            <!-- ISSUE BOOK -->
+
+            <div class="card">
+
+                <div class="icon">
+                    📖
+                </div>
+
+                <h2>Issue Book</h2>
+
+                <p>
+                    Issue books to library members.
+                </p>
+
+                <a href="#" data-page="Issue Book">
+                    Issue Book
+                </a>
+
+            </div>
+
+
+            <!-- RETURN BOOK -->
+
+            <div class="card">
+
+                <div class="icon">
+                    🔄
+                </div>
+
+                <h2>Return Book</h2>
+
+                <p>
+                    Manage returned books.
+                </p>
+
+                <a href="#" data-page="Return Book">
+                    Return Book
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        © 2026 Library Management System
+
+    </footer>
+
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
